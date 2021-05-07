@@ -1,0 +1,51 @@
+
+State Machine - |TestTM1637|control_tm1637:inst|cur_state
+Name cur_state.S_WAITE cur_state.S_WAITD cur_state.S_WAITC cur_state.S_WAITB cur_state.S_WAITA cur_state.S_WAIT9 cur_state.S_WAIT8 cur_state.S_WAIT7 cur_state.S_WAIT6 cur_state.S_WAIT5 cur_state.S_WAIT4 cur_state.S_WAIT3 cur_state.S_WAIT2 cur_state.S_WAIT1 cur_state.S_IDLE 
+cur_state.S_IDLE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+cur_state.S_WAIT1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+cur_state.S_WAIT2 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+cur_state.S_WAIT3 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+cur_state.S_WAIT4 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+cur_state.S_WAIT5 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+cur_state.S_WAIT6 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+cur_state.S_WAIT7 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+cur_state.S_WAIT8 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+cur_state.S_WAIT9 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+cur_state.S_WAITA 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+cur_state.S_WAITB 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+cur_state.S_WAITC 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+cur_state.S_WAITD 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+cur_state.S_WAITE 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |TestTM1637|tm1637:inst4|next_state
+Name next_state.S_STOP3 next_state.S_STOP2 next_state.S_STOP1 next_state.S_STOP next_state.S_ACK2 next_state.S_ACK1 next_state.S_ACK next_state.S_WRITE3 next_state.S_WRITE2 next_state.S_WRITE1 next_state.S_WRITE next_state.S_IDLE 
+next_state.S_IDLE 0 0 0 0 0 0 0 0 0 0 0 0 
+next_state.S_WRITE 0 0 0 0 0 0 0 0 0 0 1 1 
+next_state.S_WRITE1 0 0 0 0 0 0 0 0 0 1 0 1 
+next_state.S_WRITE2 0 0 0 0 0 0 0 0 1 0 0 1 
+next_state.S_WRITE3 0 0 0 0 0 0 0 1 0 0 0 1 
+next_state.S_ACK 0 0 0 0 0 0 1 0 0 0 0 1 
+next_state.S_ACK1 0 0 0 0 0 1 0 0 0 0 0 1 
+next_state.S_ACK2 0 0 0 0 1 0 0 0 0 0 0 1 
+next_state.S_STOP 0 0 0 1 0 0 0 0 0 0 0 1 
+next_state.S_STOP1 0 0 1 0 0 0 0 0 0 0 0 1 
+next_state.S_STOP2 0 1 0 0 0 0 0 0 0 0 0 1 
+next_state.S_STOP3 1 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |TestTM1637|tm1637:inst4|cur_state
+Name cur_state.S_STOP3 cur_state.S_STOP2 cur_state.S_STOP1 cur_state.S_STOP cur_state.S_ACK2 cur_state.S_ACK1 cur_state.S_ACK cur_state.S_WRITE3 cur_state.S_WRITE2 cur_state.S_WRITE1 cur_state.S_WRITE cur_state.S_START cur_state.S_WAIT1 cur_state.S_WAIT cur_state.S_IDLE 
+cur_state.S_IDLE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+cur_state.S_WAIT 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+cur_state.S_WAIT1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+cur_state.S_START 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+cur_state.S_WRITE 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+cur_state.S_WRITE1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+cur_state.S_WRITE2 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+cur_state.S_WRITE3 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+cur_state.S_ACK 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+cur_state.S_ACK1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+cur_state.S_ACK2 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+cur_state.S_STOP 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+cur_state.S_STOP1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+cur_state.S_STOP2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+cur_state.S_STOP3 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

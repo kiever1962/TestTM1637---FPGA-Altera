@@ -1,0 +1,6 @@
+Warning (10268): Verilog HDL information at key.sv(9): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at control_tm1637.sv(36): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at reset.sv(8): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at divider_clock.sv(8): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at second_blink.sv(8): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at timer.sv(47): always construct contains both blocking and non-blocking assignments
